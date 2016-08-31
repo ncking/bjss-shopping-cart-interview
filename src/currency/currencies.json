@@ -1,0 +1,18 @@
+[
+    {
+        "id": "GBP",
+        "name": "UK pound",
+        "symbol": "£"
+    },
+    {
+        "id": "USD",
+        "name": "US Dollar",
+        "symbol": "$"
+    },
+    {
+        "id": "AED",
+        "name": "United Arab Emirates Dirham",
+        "symbol": "درهم"
+    }
+]
+

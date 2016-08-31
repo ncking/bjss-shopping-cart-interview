@@ -1,0 +1,34 @@
+<ul class="store">
+    <%
+        for(var i=0; i < stockItems.length; i++) { 
+            var stockItem = stockItems[i];
+    %>
+            <li data-stock-id=<%-stockItem.getId()%>>
+                <%-stockItem.getTitle()%> -- 
+                <span>£ <%-stockItem.getPrice()%> </span>
+                <span><%-stockItem.getUnitDescription()%></span>
+                <span class="step stock-remove">-</span>
+                <span class="step stock-add">+</span>
+            </li>
+    <%
+        }
+    %>
+</ul>
+
+<div class="basket">
+    <div class="basket-wrap">
+        <ul class="basket-items">
+
+        </ul>
+    </div>
+    <ul class="basket-footer">
+        <li>
+            <select class="basket-currency js-currency">
+                <%for(var i= 0; i < currencies.length; i++) {%>
+                    <option value="<%- currencies[i].id%>"><%- currencies[i].name%></option>
+                <% } %>
+            </select>
+        </li>
+        <li>TOTAL: <span class="basket-total"></span></li>
+    </ul>
+</div>

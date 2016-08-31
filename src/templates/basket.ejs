@@ -1,0 +1,12 @@
+<%
+var items = basket.getItems();
+var len = items.length;
+for(var i =0; i< len; i++){
+    var item = items[i], stockItem = item.stockItem;
+%>
+    <li class="basket-item">
+        <%-stockItem.getTitle()%> (x <%-item.getQuantity()%> @ £<%-stockItem.getPrice()%>)  <i class="basket-item-total">£<%-item.getTotal()%></i>
+    </li>
+<%
+};
+%>

@@ -1,0 +1,20 @@
+{
+  "name": "bjss_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "connect": "^3.3.5",
+    "serve-static": "^1.10.1"
+  },
+  "devDependencies": {
+    "assets-webpack-plugin": "^3.4.0",
+    "clean-webpack-plugin": "^0.1.10",
+    "ejs-compiled-loader": "^2.1.1",
+    "json-loader": "^0.5.7",
+    "webpack": "^1.13.2"
+  },
+  "scripts": {},
+  "author": "Nigel King",
+  "license": "ISC"
+}

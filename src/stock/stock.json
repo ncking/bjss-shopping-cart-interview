@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Peas",
+        "unit_price": 0.95,
+        "unit_desc": "per bag",
+        "id": 1
+    },
+    {
+        "title": "Eggs",
+        "unit_price": 2.10,
+        "unit_desc": "per dozen",
+        "id": 2
+    },
+    {
+        "title": "Milk",
+        "unit_price": 1.30,
+        "unit_desc": "per bottle",
+        "id": 3
+    },
+    {
+        "title": "Beans",
+        "unit_price": 0.73,
+        "unit_desc": "per can",
+        "id": 4
+    }
+]
+
